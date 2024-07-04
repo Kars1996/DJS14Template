@@ -76,7 +76,7 @@ const event: BotEvent = {
             );
         }
 
-        command.execute(message, args);
+        command.execute(message, args.slice(1));
     },
 };
 
